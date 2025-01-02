@@ -1,0 +1,13 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   
+   <xsd:element name="employee">
+   
+      <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element name="name" type="xsd:string" />
+            <xsd:element name="info" type="xsd:anyType" />
+         </xsd:sequence>
+      </xsd:complexType>  
+   </xsd:element>
+
+</xsd:schema>

@@ -1,0 +1,13 @@
+
+   <employee>
+      <fullName>John Smith</fullName>
+      <address>
+         <street>100 Main</street>
+         <city>Friendly</city>
+         <state>Confusion</state>
+      </address>
+      <project>manatee</project>
+      <project>mongoose</project>
+      <laptop>Mega Master X</laptop>
+   </employee>
+

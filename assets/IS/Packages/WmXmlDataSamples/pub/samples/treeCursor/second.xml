@@ -1,0 +1,15 @@
+<root>
+   <able>
+      <baker>
+         <charlie>
+            <delta>xxx</delta>
+            <epsilon>yyyy</epsilon>
+         </charlie>
+         <theta/>
+         <charlie>four</charlie>
+      </baker>
+      <baker/>
+   </able>   
+   <able/>
+</root>
+

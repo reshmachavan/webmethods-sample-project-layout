@@ -1,0 +1,14 @@
+<payload xmlns:ns1="nsone" xmlns:ns2="nstwo">
+   <able mode="off">
+      <ns2:delta>green</ns2:delta>
+      <gamma/>
+   </able>
+   <baker ns1:epsilom="23" />
+   <charlie>fox</charlie>
+   <ns2:zeta>five</ns2:zeta>
+   <ns2:zeta>
+      <one>xxx</one>
+      <two>yyy</two>
+   </ns2:zeta>  
+   <able>archer</able>
+</payload>

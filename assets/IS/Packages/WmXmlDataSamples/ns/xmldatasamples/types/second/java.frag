@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="name">second</value>
+  <value name="encodeutf8">true</value>
+  <value name="body">Ly8gUmV0cmlldmUgdGhlIFhtbERhdGEgb3V0cHV0IGZyb20gdGhlIGNvbnZlcnNpb24gc2Vydmlj
+ZQ0KSURhdGEgaW5wdXQgPSAoSURhdGEpIFZhbHVlc0VtdWxhdG9yLmdldChwaXBlbGluZSwgInht
+bERhdGFEb2N1bWVudCIpOw0KLy8gY3JlYXRlIGEgYnVmZmVyIGZvciBjb25zb2xlIG91dHB1dA0K
+U3RyaW5nQnVpbGRlciBzYiA9IG5ldyBTdHJpbmdCdWlsZGVyKCk7DQoNCi8vIE9idGFpbiBhbiBY
+bWxEYXRhVHJlZUN1cnNvcg0KWG1sRGF0YVRyZWVDdXJzb3IgeGRjID0gWG1sRGF0YS5nZXRYbWxE
+YXRhVHJlZUN1cnNvcihpbnB1dCk7DQoNCi8vIGl0ZXJhdGUgb3ZlciBpdGVtcw0Kd2hpbGUoeGRj
+Lm5leHRJbk9yZGVyKCkgIT0gbnVsbCkgDQoJc2IuYXBwZW5kKHhkYy5nZXRUYWcoKS50b1N0cmlu
+ZygpICsgIiAiICsgeGRjLmN1cnJlbnRJbmRleCgpICArICJcbiIpOw0Kc2IuYXBwZW5kKCJcbiIp
+Ow0KDQpWYWx1ZXNFbXVsYXRvci5wdXQocGlwZWxpbmUsICJjb25zb2xlIiwgc2IudG9TdHJpbmco
+KSk7DQoNCi8vIFJlbGVhc2UgcmVzb3VyY2VzDQp4ZGMuZGVzdHJveSgpOw0KDQoJ</value>
+</Values>

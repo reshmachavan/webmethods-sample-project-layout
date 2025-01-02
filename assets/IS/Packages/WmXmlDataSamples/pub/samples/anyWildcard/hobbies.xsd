@@ -1,0 +1,9 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+      targetNamespace="localhost/hobbies"
+      xmlns="localhost/hobbies" >
+   
+   <xsd:element name="coins"  type="xsd:string" />
+   <xsd:element name="stamps" type="xsd:string" />
+   <xsd:element name="racing" type="xsd:string" />   
+
+</xsd:schema>

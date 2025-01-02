@@ -1,0 +1,27 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+      targetNamespace="samples.xml.org/2" 
+      xmlns="samples.xml.org/2" >
+   
+   <xsd:element name="employee" type="personInfo" />
+   
+   <xsd:complexType name="personInfo">
+      <xsd:sequence>
+         <xsd:element name="fullName" type="xsd:string" />
+         <xsd:element name="address" type="addressInfo" />
+         <xsd:choice>
+            <xsd:element name="server" type="xsd:string" form="qualified" />
+            <xsd:element name="laptop" type="xsd:string" form="qualified" />
+            <xsd:element name="tablet" type="xsd:string" form="qualified" />
+         </xsd:choice>
+      </xsd:sequence>
+   </xsd:complexType>  
+   
+   <xsd:complexType name="addressInfo" >
+      <xsd:sequence>
+         <xsd:element name="street" type="xsd:string" />
+         <xsd:element name="city" type="xsd:string" />
+         <xsd:element name="state" type="xsd:string" />
+      </xsd:sequence>
+   </xsd:complexType>
+   
+</xsd:schema>

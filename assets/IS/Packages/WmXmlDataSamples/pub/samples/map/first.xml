@@ -1,0 +1,8 @@
+<alpha xmlns="sampleMaps">
+   <one>aaa</one>
+   <two>bbb</two>
+   <three>
+      <able>ttt</able>
+      <baker>five</baker>
+   </three>
+</alpha>

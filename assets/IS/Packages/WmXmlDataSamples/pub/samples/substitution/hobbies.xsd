@@ -1,0 +1,11 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+      targetNamespace="localhost/hobbies"
+      xmlns="localhost/hobbies" xmlns:sam="samples.xml.org" >
+
+    <xsd:import schemaLocation="schema.xsd" namespace="samples.xml.org" />
+   
+   <xsd:element name="coins"  type="xsd:string" substitutionGroup="sam:activity" />
+   <xsd:element name="stamps" type="xsd:string" substitutionGroup="sam:activity" />
+   <xsd:element name="racing" type="xsd:string" substitutionGroup="sam:activity" />   
+
+</xsd:schema>

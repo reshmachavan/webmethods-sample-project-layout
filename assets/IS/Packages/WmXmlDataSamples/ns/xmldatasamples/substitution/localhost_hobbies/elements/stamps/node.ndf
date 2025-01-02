@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="field" javaclass="com.wm.util.Values">
+    <value name="node_type">field</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">xmldatasamples.substitution.localhost_hobbies.elements:stamps</value>
+    <value name="node_pkg">WmXmlDataSamples</value>
+    <value name="is_public">false</value>
+    <value name="field_name">stamps</value>
+    <value name="field_type">string</value>
+    <value name="field_dim">0</value>
+    <record name="field_content_type" javaclass="com.wm.util.Values">
+      <value name="contentType">1</value>
+      <value name="internalType">reference</value>
+      <value name="dataTypeVersion">dtVersion2</value>
+      <array name="targetNames" type="record" depth="1">
+        <record javaclass="com.wm.util.Values">
+          <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+          <value name="ncName">string</value>
+        </record>
+      </array>
+    </record>
+    <value name="nillable">false</value>
+    <value name="field_xmlns">localhost/hobbies</value>
+    <value name="substitution_group_members">xmldatasamples.substitution.samples_xml_org.elements:activity</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <value name="schemaDomain">d2ac5300a9a1141abbd7ffffffff658b</value>
+    <value name="docTypeDomain">d2ac5300a9a1141abbd7ffffffff658b</value>
+    <value name="originURI">file:///C:\svn\develop\staging\installs\IntegrationServer\instances\default\packages\WmXmlDataSamples\pub\samples\substitution\schema.xsd</value>
+    <value name="field_min">1</value>
+    <value name="field_max">1</value>
+    <value name="field_enhanced">true</value>
+    <value name="field_is_attribute">false</value>
+    <value name="field_is_text">false</value>
+    <value name="field_is_xml_content">true</value>
+    <value name="any_mode">0</value>
+    <value name="role">1</value>
+    <value name="any_mode_uris"></value>
+    <value name="process">0</value>
+  </record>
+</Values>

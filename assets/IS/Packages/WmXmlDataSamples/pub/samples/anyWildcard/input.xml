@@ -1,0 +1,12 @@
+
+   <sam:employee xmlns:sam="samples.xml.org" xmlns:hob="localhost/hobbies">
+      <sam:fullName>John Smith</sam:fullName>
+      <address category="home" sam:version="1.0">
+         <street>100 Main</street>
+         <city>Friendly</city>
+         <state>Confusion</state>
+      </address>
+      <hob:coins>ancient and modern</hob:coins>
+      <hob:racing>dirt track and ice</hob:racing>
+   </sam:employee>
+

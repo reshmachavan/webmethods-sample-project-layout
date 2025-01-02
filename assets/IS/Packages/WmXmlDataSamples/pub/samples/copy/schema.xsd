@@ -1,0 +1,57 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   
+   <xsd:element name="root" />
+   
+   <xsd:complexType name="props" >
+      <xsd:sequence>
+         <xsd:element name="cost"   type="xsd:string" />
+         <xsd:element name="weight" type="xsd:string" />
+         <xsd:element name="color"  type="xsd:string" />
+      </xsd:sequence>
+   </xsd:complexType>
+   
+   <xsd:complexType name="normal">
+      <xsd:sequence>
+         <xsd:element name="car"   type="props" />
+         <xsd:element name="truck" type="props" />
+         <xsd:element name="boat"  type="props" />
+      </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="vehicles">
+       <xsd:sequence>
+          <xsd:element name="car"   type="xsd:string" />
+          <xsd:element name="truck" type="xsd:string" />
+          <xsd:element name="boat"  type="xsd:string" />            
+      </xsd:sequence>
+   </xsd:complexType>
+   
+   <xsd:complexType name="inverted"> 
+      <xsd:sequence>
+         <xsd:element name="cost"   type="vehicles" />
+         <xsd:element name="weight" type="vehicles" />
+         <xsd:element name="color"  type="vehicles" />
+     </xsd:sequence>
+   </xsd:complexType>
+   
+   <xsd:element name="top" type="typeAnest" />
+ 
+   <xsd:complexType name="typeBlist">
+      <xsd:sequence>
+         <xsd:element name="baker" type="xsd:string" maxOccurs="5" />
+      </xsd:sequence>
+   </xsd:complexType>
+   
+   <xsd:complexType name="typeAnest">
+      <xsd:sequence>
+         <xsd:element name="ableTop" maxOccurs="5" >
+           <xsd:complexType>
+              <xsd:sequence>
+                 <xsd:element name="ableItem" type="xsd:string"  />
+              </xsd:sequence>
+           </xsd:complexType>
+         </xsd:element>
+      </xsd:sequence>
+   </xsd:complexType>
+ 
+</xsd:schema>

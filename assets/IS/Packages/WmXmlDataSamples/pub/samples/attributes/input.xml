@@ -1,0 +1,10 @@
+
+   <employee>
+      <name>John Smith</name>
+      <address category="home">
+         <street>100 Main</street>
+         <city>Friendly</city>
+         <state>Confusion</state>
+      </address>
+   </employee>
+

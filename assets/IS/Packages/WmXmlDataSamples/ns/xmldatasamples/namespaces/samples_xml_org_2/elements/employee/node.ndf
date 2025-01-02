@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">xmldatasamples.namespaces.samples_xml_org_2.elements:employee</value>
+    <value name="node_pkg">WmXmlDataSamples</value>
+    <value name="is_public">false</value>
+    <value name="field_name">employee</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">XmlData</value>
+    <value name="nillable">false</value>
+    <value name="field_xmlns">samples.xml.org/2</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <value name="schemaDomain">13215e504b6c14fb9614ffffffffdd32</value>
+    <value name="docTypeDomain">13215e504b6c14fb9614ffffffffdd32</value>
+    <value name="originURI">file:///C:\svn\develop\staging\installs\IntegrationServer\instances\default\packages\WmXmlDataSamples\pub\samples\namespaces\schema2.xsd</value>
+    <value name="field_min">1</value>
+    <value name="field_max">1</value>
+    <value name="field_enhanced">true</value>
+    <value name="field_is_attribute">false</value>
+    <value name="field_is_text">false</value>
+    <value name="field_is_xml_content">true</value>
+    <value name="any_mode">0</value>
+    <value name="role">1</value>
+    <value name="any_mode_uris"></value>
+    <value name="process">0</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">employee</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="wrapper_type">XmlData</value>
+        <value name="nillable">false</value>
+        <value name="field_xmlns">samples.xml.org/2</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="schemaDomain">13215e504b6c14fb9614ffffffffdd32</value>
+        <value name="docTypeDomain">13215e504b6c14fb9614ffffffffdd32</value>
+        <value name="originURI">file:///C:\svn\develop\staging\installs\IntegrationServer\instances\default\packages\WmXmlDataSamples\pub\samples\namespaces\schema2.xsd</value>
+        <value name="field_min">1</value>
+        <value name="field_max">1</value>
+        <value name="field_enhanced">true</value>
+        <value name="field_is_attribute">false</value>
+        <value name="field_is_text">false</value>
+        <value name="field_is_xml_content">true</value>
+        <value name="any_mode">0</value>
+        <value name="role">1</value>
+        <value name="any_mode_uris"></value>
+        <value name="process">0</value>
+        <value name="wrappedElement">true</value>
+        <value name="modifiable">false</value>
+        <value name="modelType">0</value>
+        <value name="preserveText">false</value>
+        <value name="namedText">false</value>
+        <value name="leadingText">false</value>
+        <value name="rec_ref">xmldatasamples.namespaces.samples_xml_org_2.complexTypes:personInfo</value>
+      </record>
+    </array>
+    <value name="elementWrapper">true</value>
+    <value name="modifiable">false</value>
+    <value name="modelType">0</value>
+    <value name="preserveText">false</value>
+    <value name="namedText">false</value>
+    <value name="leadingText">false</value>
+  </record>
+</Values>

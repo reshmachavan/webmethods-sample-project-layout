@@ -1,0 +1,24 @@
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+      targetNamespace="sampleMaps" 
+      xmlns="sampleMaps"
+      elementFormDefault="qualified" >
+   
+   <xsd:element name="alpha" >
+      <xsd:complexType>
+         <xsd:sequence>
+            <xsd:element name="one" type="xsd:string" />
+            <xsd:element name="two" type="xsd:string" />
+            <xsd:element name="three" >
+               <xsd:complexType>
+                  <xsd:sequence>
+                     <xsd:element name="able" type="xsd:string" />
+                     <xsd:element name="baker" type="xsd:string" />
+                  </xsd:sequence>
+               </xsd:complexType>
+            </xsd:element>
+         </xsd:sequence>
+      </xsd:complexType>
+   </xsd:element>
+  
+   
+</xsd:schema>

@@ -1,0 +1,11 @@
+
+   <sam:employee xmlns:sam="samples.xml.org/2">
+      <fullName>John Smith</fullName>
+      <address>
+         <street>100 Main</street>
+         <city>Friendly</city>
+         <state>Confusion</state>
+      </address>
+      <sam:laptop>Mega Master X</sam:laptop>
+    </sam:employee>
+

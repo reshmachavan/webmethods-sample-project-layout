@@ -1,0 +1,18 @@
+
+<info>
+   <car>
+      <cost>123</cost>
+      <weight>xyz</weight>
+      <color>---</color>
+   </car>
+   <truck>
+      <cost>456</cost>
+      <weight>abc</weight>
+      <color>***</color>
+   </truck>
+   <boat>
+      <cost>789</cost>
+      <weight>qrs</weight>
+      <color>$$$</color>
+   </boat>  
+</info>

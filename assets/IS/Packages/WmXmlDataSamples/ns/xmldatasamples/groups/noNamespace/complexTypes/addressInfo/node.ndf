@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">xmldatasamples.groups.noNamespace.complexTypes:addressInfo</value>
+    <value name="node_pkg">WmXmlDataSamples</value>
+    <value name="is_public">false</value>
+    <value name="field_name">addressInfo</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">XmlData</value>
+    <value name="nillable">false</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <value name="schemaDomain">55ab7ba0f08913cfa347ffffffff6c91</value>
+    <value name="docTypeDomain">55ab7ba0f08913cfa347ffffffff6c91</value>
+    <value name="originURI">file:///C:\svn\develop\staging\installs\IntegrationServer\instances\default\packages\WmXmlDataSamples\pub\samples\groups\schema.xsd</value>
+    <value name="field_min">1</value>
+    <value name="field_max">1</value>
+    <value name="field_enhanced">true</value>
+    <value name="field_is_attribute">false</value>
+    <value name="field_is_text">false</value>
+    <value name="field_is_xml_content">true</value>
+    <value name="any_mode">0</value>
+    <value name="role">3</value>
+    <value name="any_mode_uris"></value>
+    <value name="process">0</value>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">street</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">string</value>
+            </record>
+          </array>
+        </record>
+        <value name="nillable">false</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="schemaDomain">55ab7ba0f08913cfa347ffffffff6c91</value>
+        <value name="docTypeDomain">55ab7ba0f08913cfa347ffffffff6c91</value>
+        <value name="originURI">file:///C:\svn\develop\staging\installs\IntegrationServer\instances\default\packages\WmXmlDataSamples\pub\samples\groups\schema.xsd</value>
+        <value name="field_min">1</value>
+        <value name="field_max">1</value>
+        <value name="field_enhanced">true</value>
+        <value name="field_is_attribute">false</value>
+        <value name="field_is_text">false</value>
+        <value name="field_is_xml_content">true</value>
+        <value name="any_mode">0</value>
+        <value name="role">1</value>
+        <value name="any_mode_uris"></value>
+        <value name="process">0</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">city</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">string</value>
+            </record>
+          </array>
+        </record>
+        <value name="nillable">false</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="schemaDomain">55ab7ba0f08913cfa347ffffffff6c91</value>
+        <value name="docTypeDomain">55ab7ba0f08913cfa347ffffffff6c91</value>
+        <value name="originURI">file:///C:\svn\develop\staging\installs\IntegrationServer\instances\default\packages\WmXmlDataSamples\pub\samples\groups\schema.xsd</value>
+        <value name="field_min">1</value>
+        <value name="field_max">1</value>
+        <value name="field_enhanced">true</value>
+        <value name="field_is_attribute">false</value>
+        <value name="field_is_text">false</value>
+        <value name="field_is_xml_content">true</value>
+        <value name="any_mode">0</value>
+        <value name="role">1</value>
+        <value name="any_mode_uris"></value>
+        <value name="process">0</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">field</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">state</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <record name="field_content_type" javaclass="com.wm.util.Values">
+          <value name="contentType">1</value>
+          <value name="internalType">reference</value>
+          <value name="dataTypeVersion">dtVersion2</value>
+          <array name="targetNames" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">string</value>
+            </record>
+          </array>
+        </record>
+        <value name="nillable">false</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="schemaDomain">55ab7ba0f08913cfa347ffffffff6c91</value>
+        <value name="docTypeDomain">55ab7ba0f08913cfa347ffffffff6c91</value>
+        <value name="originURI">file:///C:\svn\develop\staging\installs\IntegrationServer\instances\default\packages\WmXmlDataSamples\pub\samples\groups\schema.xsd</value>
+        <value name="field_min">1</value>
+        <value name="field_max">1</value>
+        <value name="field_enhanced">true</value>
+        <value name="field_is_attribute">false</value>
+        <value name="field_is_text">false</value>
+        <value name="field_is_xml_content">true</value>
+        <value name="any_mode">0</value>
+        <value name="role">1</value>
+        <value name="any_mode_uris"></value>
+        <value name="process">0</value>
+      </record>
+    </array>
+    <value name="modifiable">false</value>
+    <value name="modelType">1</value>
+    <value name="preserveText">false</value>
+    <value name="namedText">false</value>
+    <value name="leadingText">false</value>
+  </record>
+</Values>
